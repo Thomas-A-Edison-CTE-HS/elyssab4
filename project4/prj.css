@@ -24,3 +24,6 @@ body{
 .container > .one:hover{
   background-color: #e0ffdc;
 }
+.one{
+  border: 5px solid #f0ecc4;
+}
