@@ -28,5 +28,9 @@ body{
 .button1 {
   background-color: rgb(195, 249, 161); 
   color: black; 
-  border: 2px solid #7bdcb8;
+  border: 5px solid #7bdcb8;
+}
+
+div.a {
+  text-align: center;
 }
