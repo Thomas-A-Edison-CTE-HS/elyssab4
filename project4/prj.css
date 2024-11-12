@@ -34,21 +34,21 @@ body{
 div.a {
   text-align: center;
 }
-div {background-color: green;}
+div {background-color: rgb(169, 255, 229);}
 div a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   padding: 15px;
-  display:inline-block;
+  display:block;
 }
 ul {
   display: inline;
   margin: 0;
   padding: 0;
 }
-ul li {display: inline-block;}
-ul li:hover {background: #555;}
+ul li {display: block;}
+ul li:hover {background: #d6a1a1;}
 ul li:hover ul {display: block;}
 ul li ul {
   position: absolute;
