@@ -24,7 +24,7 @@ div.a {
 div {background-color: rgb(169, 255, 229);}
 div a {
   text-decoration: none;
-  color: white;
+  color: rgb(124, 124, 124);
   font-size: 20px;
   padding: 15px;
   display:block;
