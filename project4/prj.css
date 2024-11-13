@@ -12,7 +12,7 @@ body{
 }
 
 .button {
-  background-color: #7ee7c0; /* Green */
+  background-color: #40d69f; /* Green */
   border: none;
   color: rgb(190, 245, 191);
   padding: 16px 32px;
@@ -48,7 +48,7 @@ ul {
   padding: 0;
 }
 ul li {display: block;}
-ul li:hover {background: #d6a1a1;}
+ul li:hover {background: #b5fdd3;}
 ul li:hover ul {display: block;}
 ul li ul {
   position: absolute;
