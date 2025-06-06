@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project.css">
-    <a href="javascript:void(0)" class="closebtn"
-    <title>Sophomore Portfolio</title>
+    <a href="javascript:void(0)" class="closebtn">
+
 </head>
 <body>
 
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-     div class"overlay-content">
+     <div class="overlay-content">
      <a href="#">About</a>
      <a href="#">Services</a>
      <a href="#">Clients</a>
@@ -21,7 +21,8 @@
 
     </div>
 
-<span onclick="openNav()">open</span>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
 
 <h1>Hey Check Out My Portfolio!</h1>
@@ -39,5 +40,19 @@ Here is where I have my labs, projects, and more!!! </p>
     <li><a href="project.html">project 3</a></li>
     <li><a href="project4/prj4.html">project 4</a></li>
 </ul>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+
+
 </body>
 </html>
+
