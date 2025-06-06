@@ -16,7 +16,7 @@ body {
 }
 
 .overlay-content {
-    position: relative;
+    position: relative auto;
     top:25%;
     width: 100%;
     text-align: center;
